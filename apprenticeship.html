@@ -8,6 +8,8 @@
 
     <title>Interaction Design Apprenticeship</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="dropdown.js"></script>
 
     <nav>
         <div class="header">
@@ -120,10 +122,10 @@
                         <span class="section_2_middle_top_heading3">
                             4 hours / day
                         </span>
-                        <p> Immerse yourself in the professional world during your apprenticeship. You’ll learn the ropes from the best and get to apply your newly acquired knowledge in the field from day one. </p>
+                        <p>Immerse yourself in the professional world during your apprenticeship. You’ll learn the ropes from the best and get to apply your newly acquired knowledge in the field from day one.</p>
                     </div>
 
-                    <img src="bangkok-students.png" alt="students working togther">
+                    <img src="bangkok-students.png" alt="students working togther" class="section_2_img4">
                     <div class="section_2_middle_top_heading2"> A full-time contract
                         <span class="section_2_middle_top_heading3">
                             1 Year / Full-Time
@@ -220,67 +222,85 @@
                     </div>
                 </div>
             </div>
-
-            <script src="app.js"></script>
+            <script src="slider.js"></script>
         </div>
 
+        <div class="section_4">
+            <span class="section_4_title">
+                Frequently asked questions
+            </span>
 
+            <p class="filter_by">Filter by:</p>
+            <button onclick="myFunction()" class="dropbtn">Program Conditions</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">All</a>
+                <a href="#">Application Process</a>
+                <a href="#">Program conditions</a>
+                <a href="#">Apprenticeship conditions</a>
+            </div>
 
-        <!--
-                
+            <div class="section_4_section_1">
+                <div class="line_1"></div>
+                <div class="section_4_q1"> <span>
+                Program conditions
+                </span></div>
+                <div class="section_4_1_bottom">
+                    <p class="section_4_paragraph_title">What are my obligations?</p>
+                    <button class="more_info">+</button>
 
-
-
-                <div class="section_2_middle_bottom">
-                    <span class="section_2_middle_top_heading2">
-                       A full-time contract: 1 Year / Full-Time:  <p>You’ll be guaranteed a 1 year contract with SCG upon graduation.</p>
-                    </span>
-                    <div class="section_1_bottom">
-                        <div class="end_date"> Scholarship value:
-                            <p> €31,300</p>
-                        </div>
-                        <div class="location"> Tuition covered
-                            <p> €20,900 </p>
-                        </div>
-                        <div class="duration"> Remaining
-                            <p> €2,000 </p>
-                        </div>
-                        <div class="start_date"> Living stipend
-                            <p> €8,400 (€700/month) </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-
-
-        <div class="section_2">
-            <div class="section_2_top">
-                <div class="section_2_left">
-                    <img src="edit2 1.png" alt="university student">
-                </div>
-
-                <div class="section_2_right">
-                    <span>
-                        About the apprenticeship
-                    </span>
-                    <p> Our scholarships are designed to give talented and driven young people from any background access to top-class education, experience and network. We offer a fully-funded master’s degree alongside an apprenticeship and a guaranteed
-                        job upon graduation.
+                    <p class="section_4_p"> The majority of our students receive numerous job offers at the end of the second academic year of their Bachelor's programme and at the end of the first academic year of their Master's programme. The best applicants receive an offer
+                        from our industrial partners at the beginning of their programmes.<br><br> Harbour.Space is highly recognized among innovative employers and is strategic partner of B.Grimm multi- industry corporation with 140 years of history
+                        in Thailand. Together we insure students get the best knowledge about the current job market opportunities.<br><br> We offer our students paid internships options during studies jointly with our industrial partners.<br> <br> Employers
+                        that hired graduates of Harbour.Space in the past include Google, IBM, Accenture, Typeform, Frog, and other tech centric companies. Our industry specific employability report could be provided to you separately during the admission
+                        process.
                     </p>
                 </div>
             </div>
-            <div class="section_2_bottom">
-                <div class="section_2_bottom_1">
 
+            <div class="section_4_section_2">
+                <div class="line_2"></div>
+                <span class="section_4_q2">
+                Program conditions
+                </span>
+                <div class="section_4_2_bottom">
+                    <p class="section_4_paragraph_title_2">What are my obligations?</p>
+                    <button class="more_info_2">+</button>
                 </div>
             </div>
-            </div>-->
-
+        </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <h3>HARBOUR.SPACE</h3>
+            <p>All rights reserved. 2022</p>
+
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/Harbour.Space.University"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/harbour-space/"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.instagram.com/Harbour.Space/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/c/HarbourSpaceUniversity"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://open.spotify.com/"><i class="fa fa-spotify"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="line_2"></div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="https://harbour.space/">Harbour.Space</a> </p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="https://harbour.space/about">About</a></li>
+                    <li><a href="https://harbour.space/admissions">Admissions</a></li>
+                    <li><a href="https://harbour.space/contacts">Contact</a></li>
+                    <li><a href="https://harbour.space/articles">Blog</a></li>
+                    <li><a href="https://harbour.space/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- footer credit: https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html -->
+    </footer>
 
 
 </body>
+
 
 </html>
